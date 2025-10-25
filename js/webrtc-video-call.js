@@ -4,11 +4,11 @@
    ============================================ */
 
 const WebRTCVideoCall = {
-    socket: null,
-    peerConnection: null,
-    localStream: null,
-    remoteStream: null,
-    isCallActive: false,
+    socket: null, // Socket.IO
+    peerConnection: null, // RTCPeerConnection
+    localStream: null, // MediaStream
+    remoteStream: null, // MediaStream  
+    isCallActive: false, // Boolean
 
     // Initialize video call module
     init(socket) {
