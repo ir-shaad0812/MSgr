@@ -1,5 +1,4 @@
-A platfrom for ...
-<!-- # Messenger Clone
+# Messenger App
 
 
 A real-time messaging application with video call functionality using WebRTC and Socket.IO.
@@ -85,4 +84,4 @@ http://localhost:3000
 
 ## License
 
-ISC -->
+ISC License
