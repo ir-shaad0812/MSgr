@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger - Chat & Video Call</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/chat.css">
+    <link rel="stylesheet" href="styles/video.css">
+</head>
+<body>
+    <!-- Main Application Container -->
+    <div id="app">
+        
+        <!-- Chat Module -->
+        <section class="chat-module">
+            <header class="chat-header">
+                <h1>💬 Chat</h1>
+            </header>
+            <div class="chat-messages" id="chatMessages"></div>
+            <footer class="chat-input-area">
+                <textarea 
+                    id="messageInput" 
+                    placeholder="Type a message..."
+                    maxlength="500"
+                    rows="1"
+                ></textarea>
+                <button id="sendButton" class="btn-send">Send</button>
+            </footer>
+        </section>
+
+        <!-- Video Call Module -->
+        <section class="video-module">
+            <div class="video-display">
+                <video id="remoteVideo" class="video-remote" autoplay playsinline></video>
+                <video id="localVideo" class="video-local" autoplay muted playsinline></video>
+            </div>
+            <div id="callStatus" class="call-status">Ready to connect</div>
+            <div class="video-controls">
+                <button id="startCallButton" class="btn-start-call">📹 Start Call</button>
+                <button id="endCallButton" class="btn-end-call">❌ End Call</button>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
+    
+    <!-- Application Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/socket-connection.js"></script>
+    <script src="js/chat-messaging.js"></script>
+    <script src="js/webrtc-video-call.js"></script>
+    <script src="js/ui-controller.js"></script>
+    <script src="js/app-initializer.js"></script>
+</body>
+</html>
+            
+    </script>
+</body>
+</html>
