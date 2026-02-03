@@ -24,6 +24,8 @@ npm install
 1. Start the server:
 ```bash
 npm start
+npm run dev
+
 ```
 
 Or for development with auto-reload:
@@ -85,3 +87,5 @@ http://localhost:3000
 ## License
 
 ISC License
+Give a ⭐ in repo
+
