@@ -1,0 +1,25 @@
+{
+  "name": "messenger-clone",
+  "version": "1.0.0",
+  "description": "A simple messenger clone with chat and video call functionality",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "keywords": [
+    "messenger",
+    "chat",
+    "webrtc",
+    "video-call"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
