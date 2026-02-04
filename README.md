@@ -189,6 +189,8 @@ Expected output should show all dependencies installed without errors.
 
 ```bash
 npm start
+npm run dev
+
 ```
 
 #### Development Mode (with auto-reload)
@@ -534,57 +536,3 @@ This project is licensed under the **ISC License**.
 
 ```
 ISC License
-
-Copyright (c) 2025 Messenger Application
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-```
-
----
-
-## 📞 Support
-
-For questions, issues, or feature requests:
-
-- **Issues:** [GitHub Issues](<repository-url>/issues)
-- **Documentation:** See [QUICK_START.md](QUICK_START.md) for quick setup
-- **Architecture:** See [RESTRUCTURE_SUMMARY.md](RESTRUCTURE_SUMMARY.md) for technical details
-
----
-
-## 🙏 Acknowledgments
-
-- Socket.IO team for real-time communication library
-- WebRTC community for peer-to-peer video protocols
-- Express.js team for the web framework
-- Google for providing free STUN servers
-
----
-
-## 🗺️ Roadmap
-
-Future enhancements planned:
-
-- [ ] User authentication and registration
-- [ ] Message persistence with database
-- [ ] File sharing and image support
-- [ ] Group chat functionality
-- [ ] Screen sharing capability
-- [ ] End-to-end encryption
-- [ ] Mobile application (React Native)
-- [ ] Docker containerization
-- [ ] CI/CD pipeline setup
-
----
-
-**Built with ❤️ using Node.js, Express, Socket.IO, and WebRTC**
